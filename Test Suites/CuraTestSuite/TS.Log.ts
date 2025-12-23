@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS.Log</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d539f0e2-a501-4da4-89eb-f0bc93d730f6</testSuiteGuid>
+   <testCaseLink>
+      <guid>fdc93a50-4e83-438c-9cc6-37c17f2cd671</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/curaHealthCare/TC.Log</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f78c7153-3de1-4038-b741-736b49c142ed</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_data/DataLoginDDT</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f78c7153-3de1-4038-b741-736b49c142ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>680d8769-bf4e-4ae6-9214-6931be6a9d1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f78c7153-3de1-4038-b741-736b49c142ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9f085b42-0d6d-408a-9cc5-53a42ea3c14a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f78c7153-3de1-4038-b741-736b49c142ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testCategory</value>
+         <variableId>98cf5858-c137-4001-bcb7-93c52d3d8d50</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f78c7153-3de1-4038-b741-736b49c142ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>assertionMessage</value>
+         <variableId>88c341a5-9e48-44b4-98e8-3800cb0ab95f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

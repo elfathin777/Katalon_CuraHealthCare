@@ -1,0 +1,10 @@
+username,password,testCategory,assertionMessage,description
+John Doe,ThisIsNotAPassword,P,,TC.Log.001.001 - user login with valid username and valid password
+John Do,ThisIsAPassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.002 - user login with invalid username and invalid password
+John Do,ThisIsNotAPassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.003 - user login with invalid username and valid password
+John Doe,ThisIsAPassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.004 - user login with valid username and invalid password
+JOHN DOE,ThisIsNotAPassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.005 - User failed to login by entering an username with username UPPER letters and a valid password.
+John Doe,thisisnotapassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.006 - user failed to log in by entering a valid username and a valid password with lowercase letters.
+empty,empty,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.007 - user failed to login by leaving username and password field empty.
+empty,ThisIsNotAPassword,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.008 - user failed to login by leaving username field empty and input valid password 
+John Doe,empty,N,Login failed! Please ensure the username and password are valid.,TC.Log.001.009 - user failed to login by entering a valid username and leaving password field empty.
