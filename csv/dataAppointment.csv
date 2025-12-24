@@ -1,0 +1,6 @@
+facility,readmission,healthcareProgram,visitDate,visitDateType,comment
+Tokyo CURA Healthcare Center,check,Medicare,24/12/2030,valid,The user successfully makes an appointment by filling in all valid fields.
+Hongkong CURA Healthcare Center,check,Medicaid,empty,empty,The user prevent booking without a visit date
+Seoul CURA Healthcare Center,check,Medicare,24/12/2020,past,The user is prevented from booking an appointment with a past date.
+Tokyo CURA Healthcare Center,check,Empty,24/12/2030,valid,The user successfully books an appointment without selecting a healthcare program.
+Tokyo CURA Healthcare Center,uncheck,None,24/12/2030,valid,The user successfully books an appointment without selecting a healthcare program.
