@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>bookAppointment_BTN</name>
+   <name>gotoHomePage_BTN</name>
    <tag></tag>
-   <elementGuidId>829be2df-76da-4ba5-8aef-2e2a1341c43e</elementGuidId>
+   <elementGuidId>f75dca72-2cf2-4db6-9eb1-f7b873c59665</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[normalize-space()='Go to Homepage']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

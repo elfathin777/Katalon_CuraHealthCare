@@ -5,13 +5,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 // Login
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.URL)
-WebUI.click(findTestObject('BTN_Make_Appointment'))
-
-WebUI.sendKeys(findTestObject('Login_Repo/Username_field'), GlobalVariable.username)
-WebUI.sendKeys(findTestObject('Login_Repo/Password_field'), GlobalVariable.password)
-WebUI.click(findTestObject('Login_Repo/BTN_Login'))
+//WebUI.sendKeys(findTestObject('Login_Repo/Username_field'), GlobalVariable.username)
+//WebUI.sendKeys(findTestObject('Login_Repo/Password_field'), GlobalVariable.password)
+//WebUI.click(findTestObject('Login_Repo/BTN_Login'))
 
 // Dropdown Facility
 if (facility == 'Tokyo CURA Healthcare Center') {
@@ -66,6 +62,4 @@ if (visitDateType == 'valid') {
 }
 
 WebUI.delay(1)
-
-WebUI.closeBrowser()
 

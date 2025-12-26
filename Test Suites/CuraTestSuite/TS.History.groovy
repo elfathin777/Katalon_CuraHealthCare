@@ -47,21 +47,17 @@ def tearDown() {
 /**
  * Run before each test case starts.
  */
-@SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	WebUI.openBrowser('')
-	WebUI.navigateToUrl(GlobalVariable.URL)
-	WebUI.click(findTestObject('BTN_Make_Appointment'))
+	// Put your code here.
 }
 
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
 	// Put your code here.
-	
-	WebUI.closeBrowser()
 }
 
 /**

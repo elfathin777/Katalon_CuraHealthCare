@@ -15,7 +15,7 @@
       <guid>fdc93a50-4e83-438c-9cc6-37c17f2cd671</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/curaHealthCare/TC.Log</testCaseId>
+      <testCaseId>Test Cases/curaHealthCare/Login/TC.Log.DDT</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f78c7153-3de1-4038-b741-736b49c142ed</id>

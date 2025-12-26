@@ -15,7 +15,7 @@
       <guid>bfd9eadc-8dff-4725-8340-0adf5cd59309</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/curaHealthCare/TC.MakeAppointment</testCaseId>
+      <testCaseId>Test Cases/curaHealthCare/Make Appointment/TC.MakeAppointment.DDT</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>acf59d92-2066-4505-8083-ab95e4886940</id>
