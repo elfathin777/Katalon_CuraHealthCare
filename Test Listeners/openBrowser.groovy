@@ -16,14 +16,5 @@
 //		WebUI.openBrowser('')
 //		WebUI.navigateToUrl(GlobalVariable.URL)
 //		WebUI.click(findTestObject('BTN_Make_Appointment'))
-//		
-//		if (username != 'empty') {
-//			WebUI.sendKeys(findTestObject('Login_Repo/Username_field'), username)
-//		}
-//		
-//		if (testCategory == 'P') {
-//			WebUI.waitForElementPresent(findTestObject('Login_Repo/Succes_Login_Assertion'), 5)
-//		
-//		}
 //	}
 //}

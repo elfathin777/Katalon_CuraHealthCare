@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>bookAppointment_BTN</name>
+   <name>historyHeading</name>
    <tag></tag>
-   <elementGuidId>829be2df-76da-4ba5-8aef-2e2a1341c43e</elementGuidId>
+   <elementGuidId>afe7fe04-7525-460e-959d-51bb485dcb51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//h2[normalize-space()='History']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

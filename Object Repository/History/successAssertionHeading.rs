@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>bookAppointment_BTN</name>
+   <name>successAssertionHeading</name>
    <tag></tag>
-   <elementGuidId>829be2df-76da-4ba5-8aef-2e2a1341c43e</elementGuidId>
+   <elementGuidId>d1e1f704-9c5e-4d5e-bdcd-1290b4ef69f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
+         <value>//div[@class='panel-heading']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
