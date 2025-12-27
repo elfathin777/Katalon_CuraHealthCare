@@ -1,17 +1,19 @@
 # 📌 Katalon Automation Project – Cura Healthcare Service
 
-This repository contains an **automation testing project using Katalon Studio** for the **Cura Healthcare Service** demo application.
+This project is an **automation testing portfolio** built using **Katalon Studio** for the CURA Healthcare Service demo website.
 
-⚠️ **Project Status: ON PROGRESS**  
-This project is actively developed and **updated daily** as part of continuous learning and practice in automation testing.
+The goal of this project is to demonstrate:
+- Web automation testing skills
+- Test case design & structuring
+- Data-Driven Testing (DDT)
+- End-to-end test flow
+- Reusable and maintainable test scripts
 
 ---
 
-## 🎯 Project Objectives
-
-- Practice real-world **web automation testing**
-- Apply **Data-Driven Testing (DDT)** approach
-- Build a clean and structured **QA automation portfolio**
+## 🌐 Application Under Test
+**CURA Healthcare Service Demo**  
+URL: https://katalon-demo-cura.herokuapp.com/
 
 ---
 
@@ -56,10 +58,19 @@ This project is actively developed and **updated daily** as part of continuous l
 
 ## ▶️ How to Run the Test
 
-1. Open the project in **Katalon Studio**
-2. Open a **Test Case** or **Test Suite**
-3. Select a browser
+### Option 1: Run via Katalon Studio
+1. Open **Katalon Studio**
+2. Open this project
+3. Select **Test Suite → CuraTestSuite**
 4. Click **Run**
+
+### Option 2: Run via Command Line (CI/CD Ready)
+```bash
+katalon -noSplash -runMode=console \
+-projectPath="Katalon_CuraHealthCare.prj" \
+-testSuitePath="Test Suites/CuraTestSuite" \
+-browserType="Chrome" \
+-executionProfile="default"
 
 ---
 
