@@ -11,6 +11,7 @@ This project is actively developed and **updated daily** as part of continuous l
 
 - Practice real-world **web automation testing**
 - Apply **Data-Driven Testing (DDT)** approach
+- Apply **Custom Keywords** on progress
 - Build a clean and structured **QA automation portfolio**
 
 ---
