@@ -24,47 +24,22 @@ import com.kms.katalon.core.annotation.SetupTestCase
 import com.kms.katalon.core.annotation.TearDown
 import com.kms.katalon.core.annotation.TearDownTestCase
 
-/**
- * Some methods below are samples for using SetUp/TearDown in a test suite.
- */
+import auth.LoginKeywords
 
-/**
- * Setup test suite environment.
- */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
-def setUp() {
-	// Put your code here.
-}
-
-/**
- * Clean test suites environment.
- */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
-def tearDown() {
-	// Put your code here.
-}
-
-/**
- * Run before each test case starts.
- */
 @SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def setupTestCase() {
 	WebUI.openBrowser('')
 	WebUI.navigateToUrl(GlobalVariable.URL)
 	WebUI.click(findTestObject('BTN_Make_Appointment'))
+	
+	LoginKeywords.login(
+		GlobalVariable.username,
+		GlobalVariable.password,
+		'P'
+	)
 }
 
-/**
- * Run after each test case ends.
- */
-@TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	// Put your code here.
-	
 	WebUI.closeBrowser()
 }
-
-/**
- * References:
- * Groovy tutorial page: http://docs.groovy-lang.org/next/html/documentation/
- */

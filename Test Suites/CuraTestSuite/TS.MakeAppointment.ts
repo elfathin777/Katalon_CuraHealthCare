@@ -30,31 +30,31 @@
          <testDataLinkId>acf59d92-2066-4505-8083-ab95e4886940</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>facility</value>
-         <variableId>ea699520-bbdc-498b-bf9c-e5ba056a0e5f</variableId>
+         <variableId>7053dcea-9560-45be-9d3f-43ce3bf16363</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>acf59d92-2066-4505-8083-ab95e4886940</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>readmission</value>
-         <variableId>9107fc5e-cfe5-4ef5-9f38-700ddb683fbd</variableId>
+         <variableId>dfe7cb25-38e3-4a99-adb8-b24c474e9a91</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>acf59d92-2066-4505-8083-ab95e4886940</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>healthcareProgram</value>
-         <variableId>81d58be5-91dc-4ac4-8ea5-63fcf055b1d5</variableId>
+         <variableId>327581d5-c0ae-476c-b17e-9747ed79e487</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>acf59d92-2066-4505-8083-ab95e4886940</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>visitDateType</value>
-         <variableId>049a8a2c-abe9-41ec-bc34-9b4ab8faa81d</variableId>
+         <variableId>f0f522e0-def1-4f7e-a7ba-3a4cb36b7d0d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>acf59d92-2066-4505-8083-ab95e4886940</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>comment</value>
-         <variableId>9276b92e-c98b-4867-960f-eace44a4ce4a</variableId>
+         <variableId>16633c2d-e34f-4692-8930-ecce08025bce</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

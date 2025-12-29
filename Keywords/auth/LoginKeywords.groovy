@@ -9,7 +9,7 @@ class LoginKeywords {
 	@Keyword
 	static void login(String username, String password, String testCategory) {
 		WebUI.waitForElementVisible(findTestObject('Login_Repo/Username_field'), 10)
-		
+
 		if (username != 'empty') {
 			WebUI.setText(findTestObject('Login_Repo/Username_field'), username)
 		}
@@ -20,7 +20,7 @@ class LoginKeywords {
 		}
 
 		WebUI.click(findTestObject('Login_Repo/BTN_Login'))
-		
+
 		if (testCategory != 'P') {
 			WebUI.waitForElementPresent(findTestObject('Login_Repo/Warning_failed_message'), 5)
 		}
