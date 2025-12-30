@@ -15,17 +15,14 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-WebUI.openBrowser('')
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.click(findTestObject('BTN_Make_Appointment'))
-
-WebUI.sendKeys(findTestObject('Login_Repo/Username_field'), GlobalVariable.username)
-
-WebUI.sendKeys(findTestObject('Login_Repo/Password_field'), GlobalVariable.password)
-
-WebUI.click(findTestObject('Login_Repo/BTN_Login'))
+import history.ClickBurgerMenuKeyword as ClickBurgerMenu
+import history.ClickHistoryKeyword as ClickHistory
+import history.VerifyHistoryKeyword as Verify
 
 def appointmentData = [
 	[('facility') : 'Tokyo CURA Healthcare Center', 
@@ -44,9 +41,7 @@ def appointmentData = [
 	]
 
 for (def data : appointmentData) {
-    WebUI.callTestCase(findTestCase('curaHealthCare/Make Appointment/TC.MakeAppointment.DDT'), 
-		data, 
-		FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('curaHealthCare/Make Appointment/TC.MakeAppointment.DDT'), data, FailureHandling.STOP_ON_FAILURE)
 	
 	// Tunggu halaman success make appointment muncul
 	WebUI.verifyElementPresent(findTestObject('Object Repository/Make Appointment Repo/Assertion_Success'), 5)
@@ -58,11 +53,7 @@ for (def data : appointmentData) {
 	WebUI.verifyElementPresent(findTestObject('Object Repository/Make Appointment Repo/Facilty_Dropdown'), 5)
 }
 
-WebUI.click(findTestObject('Object Repository/icon_burgerMenu'))
-
-WebUI.click(findTestObject('Object Repository/History/historyMenu'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/History/historyHeading'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/History/successAssertionHeading'), 5)
+ClickBurgerMenu.clickBurgerMenu()
+ClickHistory.clickHistory()
+Verify.verifyHistory()
 

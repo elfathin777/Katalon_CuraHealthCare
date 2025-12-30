@@ -32,11 +32,7 @@ def setupTestCase() {
 	WebUI.navigateToUrl(GlobalVariable.URL)
 	WebUI.click(findTestObject('BTN_Make_Appointment'))
 	
-	LoginKeywords.login(
-		GlobalVariable.username,
-		GlobalVariable.password,
-		'P'
-	)
+	LoginKeywords.login(GlobalVariable.username, GlobalVariable.password, 'P')
 }
 
 @TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.

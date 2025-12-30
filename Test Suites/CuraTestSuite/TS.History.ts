@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e93ca55f-eb6f-47da-bf43-e72dacfb7d1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/curaHealthCare/History/TC.Hist.001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -88,7 +88,7 @@
    <testCaseLink>
       <guid>4910c4a4-5d13-431a-add3-0117da5956ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/curaHealthCare/History/TC.Hist.003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
