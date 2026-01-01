@@ -2,8 +2,9 @@
 
 This repository contains an **automation testing project using Katalon Studio** for the **Cura Healthcare Service** demo application.
 
-⚠️ **Project Status: ON PROGRESS**  
-This project is actively developed and **updated daily** as part of continuous learning and practice in automation testing.
+✅ Project Status: COMPLETED
+This project has been successfully completed as part of continuous learning and hands-on practice in automation testing.
+All planned features and test scenarios have been implemented and validated.
 
 ---
 
@@ -11,7 +12,7 @@ This project is actively developed and **updated daily** as part of continuous l
 
 - Practice real-world **web automation testing**
 - Apply **Data-Driven Testing (DDT)** approach
-- Apply **Custom Keywords** on progress
+- Apply **Custom Keywords**
 - Build a clean and structured **QA automation portfolio**
 
 ---
@@ -39,14 +40,6 @@ This project is actively developed and **updated daily** as part of continuous l
 
 ---
 
-## 🔄 Current Progress
-
-- ✅ Project setup completed
-- ✅ Login automation implemented
-- ✅ Data-driven test structure applied
-- 🔄 Additional test scenarios in progress
-- 🔄 Test listeners and optimization ongoing
-
 📈 This repository will be **updated regularly** with:
 - New test cases
 - Improved test logic
@@ -58,7 +51,7 @@ This project is actively developed and **updated daily** as part of continuous l
 ## ▶️ How to Run the Test
 
 1. Open the project in **Katalon Studio**
-2. Open a **Test Case** or **Test Suite**
+2. Open a **Test Suite**
 3. Select a browser
 4. Click **Run**
 
@@ -67,7 +60,6 @@ This project is actively developed and **updated daily** as part of continuous l
 ## 📌 Notes
 
 - This project focuses on **learning, consistency, and clean automation logic**
-- No Page Object Model (POM) is used at this stage
 - Test design prioritizes **clarity and maintainability**
 
 ---
